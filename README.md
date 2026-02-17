@@ -199,9 +199,9 @@ Performance is primarily limited by SPI clock speed and transaction switching ov
 
 ## Future Work
 
-- [] Migrate to RP2040 or ESP32 for higher throughput
-- [] Increase CAM SPI clock if stable
-- [] Add JPEG compression control via sensor registers
-- [] Implement image viewer in gallery
-- [] Design enclosure
-- [] Improve preview FPS using continuous FIFO burst reads
+- [ ] Migrate to RP2040 or ESP32 for higher throughput
+- [ ] Increase CAM SPI clock if stable
+- [ ] Add JPEG compression control via sensor registers
+- [ ] Implement image viewer in gallery
+- [ ] Design enclosure
+- [ ] Improve preview FPS using continuous FIFO burst reads
