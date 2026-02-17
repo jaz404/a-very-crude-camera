@@ -38,7 +38,7 @@ void Camera::modeJpeg() {
   SPI.beginTransaction(SpiCfg::CAM_SPI);
   cam_.set_format(JPEG);
   cam_.InitCAM();
-  cam_.OV2640_set_JPEG_size(OV2640_320x240);
+  cam_.OV2640_set_JPEG_size(OV2640_800x600);
   cam_.clear_fifo_flag();
   SPI.endTransaction();
 }

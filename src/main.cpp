@@ -295,7 +295,7 @@ void loop() {
     static uint32_t lastPreview = 0;
 
     // preview refresh
-    if (millis() - lastPreview >= 500) {
+    if (millis() - lastPreview >= 100) {
       lastPreview = millis();
       captureAndDisplayFrame();
       ui.drawCameraOverlay();
