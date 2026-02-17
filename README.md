@@ -106,6 +106,7 @@ The firmware is structured as a state-driven application. Each module isolates o
   <br/>
   <em>quick UI mockup</em>
 </p>
+
 ### Camera.cpp
 
 Responsible for:
